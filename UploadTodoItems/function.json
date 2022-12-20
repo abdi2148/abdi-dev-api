@@ -14,6 +14,13 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "upload",
+      "path": "uploads/{rand-guid}.csv",
+      "connection": "abdidevapiuploadstorage_STORAGE"
     }
   ],
   "scriptFile": "../dist/UploadTodoItems/index.js"
